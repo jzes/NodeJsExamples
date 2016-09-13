@@ -6,6 +6,7 @@ var rl = reader.createInterface({
 })
 
 rl.question('Que horas são? ', function (resposta) {
-  console.log(resposta)
-  console.log('A Aventura vai começar...')
+  if (resposta === 'Hora de Aventura') {
+    console.log('A Aventura vai começar...')
+  }
 })
