@@ -2,6 +2,7 @@
 // This is another form to represent an object in java script, this way uses a
 //  constructor function to create an "raw" object and after this we can create a
 //  instance of this object with any value we want
+
 function People (name, age, likes) {
   this.name = name
   this.age = age
