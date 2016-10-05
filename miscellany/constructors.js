@@ -18,10 +18,13 @@ function People (name, age, likes) {
 
 var jose = new People('jose', 26, 'bacon')
 var steve = new People('Steve', 41, 'linguiça')
+steve.from = 'India'
 
 var peoples = [jose, steve]
 
+
 peoples.forEach(function (people) {
   console.log(people.name)
+  console.log(people.from)
   people.eat('bacon')
 })
