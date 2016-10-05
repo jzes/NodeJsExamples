@@ -1,0 +1,9 @@
+{
+  "name": "facebookGraphEx",
+  "version": "0.0.1",
+  "description": "Example of using facebook graph",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "fbgraph": "^1.3.0"
+  }
+}
