@@ -1,0 +1,10 @@
+
+<form method="post">
+  <input type="text" name="user" placeholder="name" />
+  <button type="submit" >Register</button>
+</form>
+<ul>
+<% users.forEach(function(user) { %>
+  <li> <%= user.userName %> </li>
+<% }) %>
+</ul>
